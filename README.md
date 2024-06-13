@@ -32,8 +32,7 @@ Como Cientista de Dados contratado, sua missão inicial é organizar os principa
 
 # Premissas da Análise
 
-Para esta análise, foram considerados dados coletados entre 11/02/2022 e 06/04/2022. O modelo de negócio adotado é o Marketplace, com foco nas transações entre restaurantes, entregadores e clientes finais.
-
+Marketplace foi o modelo de negócio assumido Os dados utilizados foram disponibilizados pela plataforma Kaggle, através do link: https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?resource=download&select=zomato.csv As principais visões definidas foi: Geral, Países, Cidades, Restaurantes e Tipos de Culinárias.
 # Estratégia de Implementação
 
 O painel estratégico foi desenvolvido para apresentar as métricas essenciais que refletem as três principais visões do modelo de negócio da Cury Company:
@@ -50,7 +49,7 @@ O painel estratégico foi desenvolvido para apresentar as métricas essenciais q
 
 # Produto Final
 
-Um painel online hospedado em nuvem, acessível de qualquer dispositivo conectado à internet. Para acessar o painel, clique neste [link](https://project-currycompany.streamlit.app/).
+Um painel online hospedado em nuvem, acessível de qualquer dispositivo conectado à internet. Para acessar o painel, clique neste [link](https://currycompany-y42oxcxqtwifrm2rr2qdgq.streamlit.app/).
 
 # Conclusão
 
