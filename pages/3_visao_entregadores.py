@@ -11,7 +11,7 @@ import folium
 from streamlit_folium import folium_static
 
 # importar dataset
-df = pd.read_csv('D:/COMUNIDADE DS/PYTHON INICIANTE/CICLO_5/dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 
 df1 = df.copy()  # copia do df para preservar o original
 
@@ -57,7 +57,7 @@ df1['Time_taken_min'] = df1['Time_taken_min'].astype(int)
 #================================================================================================
 st.header("Marketplace - Visão Entregadores")
 
-image_path = 'D:/COMUNIDADE DS/PYTHON INICIANTE/CICLO_5/imgs/abstracte-png.webp'
+image_path = 'abstracte-png.webp'
 image = imgpil.open(image_path)
 st.sidebar.image(image, width=120)
 
